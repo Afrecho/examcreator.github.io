@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-creator.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="form-container">
+        <form action="">
+
+                <div class="ingreso">
+                <label for="title"></label>
+                <input type="text" id="title" name="title" placeholder="Nombre del examen">
+            </div>
+
+            <div class="ingreso">
+                <label for="title"></label>
+                <input type="checkbox">
+                <span class="slider"></span>
+            </div>
+
+            <div class="ingreso"> 
+                <label for="enlace"></label>
+               <!--  <input  type="text" id="enlace" name="enlace" placeholder="Ingresa un enlace">
+             -->
+                
+                
+                <input  type="file" id="imagenOvideo" name="imagenOvideo">
+
+            </div>
+
+            <div class="ingreso">
+                <label for="pregunta1"></label>
+                <input type="text" id="pregunta1" name="pregunta1" placeholder="Pregunta 1">
+                <input type="text" id="extra" name="extra" placeholder="Extra">
+            </div>
+            <div class="ingreso">
+                <label for="opcionesRespuesta"></label>
+                <input type="text" id="opcionesRespuesta" name="opcionesRespuesta" placeholder="Ingrese opciones separadas por comas">
+            </div>
+            <div class="ingreso">
+                <label for="numeroRepuesta"></label>
+                <input type="number" id="numeroRepuesta" name="numeroRepuesta" placeholder="Ingrese opciones separadas por comas">
+            </div>
+            <div class="ingreso">
+                <button id="agregarPregunta">AGREGAR</button>
+            </div>
+
+        </form>
+
+        
+
+    </div>
+
+    <div class="preguntas">
+                <span id="preguntaAgregada">. . . </span>
+    </div>
+    
+</body>
+</html>
